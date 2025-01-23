@@ -33,9 +33,9 @@ footer {
     line-height: 40px;
     background-color: #7a7663;
     color: white;
-    font-size: 15px;
-    margin-top: 20px;
-    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 25px;
+    padding: 18px 10px;
 }
 
 #hero-image {
