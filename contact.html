@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Linnéa Karlsson</h2>
+        <nav>
+            <a href="index.html">Hem</a>
+            <a href="about.html">Om mig</a>
+            <a href="tech.html">Teknik</a>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Kontakta mig</h2>
+        <section class="contact">
+
+            <section id="form">
+                <h3>Kontaktformulär:</h3>
+                <form action="/submit" method="post">
+                    <label for="name">Namn:</label><br>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">E-post:</label><br>
+                    <input id="email" name="email" required>
+                    <br>
+                    <label for="phone">Telefonnummer:</label><br>
+                    <input id="phone" name="phone">
+                    <br><br>
+                    <label for="subject">Ämne:</label><br>
+                    <input type="text" id="subject" name="subject">
+                    <br>
+                    <label for="message">Meddelande:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    <br><br>
+                    <button value="Skicka" id="sendButton">Skicka</button>
+                </form>
+            </section>
+            <section id="boxes">
+                <p class="contact-box">Ring mig på: <br>
+                    <a href="tel:+46737244588">073-7244588</a><br>
+                    Mejla mig på: <br>
+                    <a href="mailto:lienlinneakarlsson@gmail.com">lienlinneakarlsson@gmail.com</a>
+                </p>
+                <br>
+                <p class="contact-box">Andra länkar:<br>
+                    <a href="https://github.com/lxnneak" target="_blank">GitHub</a>
+                    <br>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                </p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        © 2025 Linnéa Karlsson
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
